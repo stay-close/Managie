@@ -162,16 +162,57 @@ a {
   min-height: 378px;
   min-width: 378px;
 }
-.list_details{
+.list_details {
   padding: 20px 0;
 }
-.list_details h3{
-  font-size: 24px;font-weight: 500;line-height: 140%;
+.list_details h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 140%;
   letter-spacing: -5%;
 }
-.list_details p{
+.list_details p {
   line-height: 170%;
   padding: 20px 0;
-  
 }
 /* ====employee management area ==== */
+
+/* ==== Why We Area ==== */
+
+.why_we_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.why_we_details h3 {
+  font-size: 48px;
+  line-height: 140%;
+}
+.why_we_details p {
+  line-height: 170%;
+  padding: 20px 0;
+}
+.why_we_list li {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  border:2px solid rgba(35, 35, 35,0.16);
+  padding: 0px 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.why_we_list li i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--clr);
+  width: 30px;
+  height: 30px;
+  background: var(--bg);
+  border-radius: 7px;
+}
+
+/* ==== Why We Area ==== */
