@@ -1,4 +1,5 @@
 :root {
+  --clr_theme: #325b97;
   --clr_heading: #232323;
   --clr_white: #ffffff;
   --clr_para_light: #757575;
@@ -33,8 +34,31 @@ p.light {
 
 /* Remove default link styles */
 a {
-    text-decoration: none;
-    color: var(--clr_heading);
-    display: inline-block;
-    font-size: 18px;
-  }
+  text-decoration: none;
+  color: var(--clr_heading);
+  display: inline-block;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+/* ====Header Area ==== */
+.header_area {
+  background: var(--clr_theme);
+  height: 60px;
+}
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_menu nav ul,
+.login_signup ul {
+  display: flex;
+}
+.main_menu nav ul li a,
+.login_signup ul li a {
+  padding: 15px 25px;
+  color: var(--clr_white);
+}
+
+/* ====Header Area ==== */
