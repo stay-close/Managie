@@ -45,6 +45,10 @@ a {
 .header_area {
   background: var(--clr_theme);
   height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .header_content {
   display: flex;
@@ -60,5 +64,79 @@ a {
   padding: 15px 25px;
   color: var(--clr_white);
 }
-
+.main_menu nav ul li a.first {
+  padding-left: 0;
+}
 /* ====Header Area ==== */
+
+/* ====Hero Area ==== */
+.hero_area {
+  background: url("../images/hero_bg.png");
+
+  background-size: cover;
+  background-position: center;
+  padding-top: 220px;
+}
+.hero_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.hero_heading h2 {
+  font-size: 64px;
+  line-height: 120%;
+  max-width: 70%;
+  color: var(--clr_white);
+}
+.hero_heading p {
+  line-height: 170%;
+  max-width: 53%;
+  color: var(--clr_white);
+  padding: 30px 0;
+}
+
+.hero_btns .btn {
+  padding: 15px 20px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  margin-right: 20px;
+  color: var(--clr_white);
+}
+.hero_btns .btn:first-child {
+  background: var(--clr_white);
+  color: var(--clr_theme);
+}
+.counter {
+  margin: 50px 0;
+}
+.counter ul {
+  display: flex;
+}
+.counter ul li {
+  padding: 10px 30px 10px 0;
+  position: relative;
+}
+.counter ul li::after {
+  position: absolute;
+  content: "";
+  height: 45%;
+  width: 2px;
+  top: 50%;
+  right: 30%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.16);
+}
+.counter ul li h4 {
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--clr_white);
+}
+.counter ul li p {
+  padding: 10px 0;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ====Hero Area ==== */
