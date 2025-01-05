@@ -9,7 +9,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
 }
 
 /* Remove default padding and margin */
