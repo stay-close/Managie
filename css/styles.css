@@ -50,6 +50,7 @@ a {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 99999;
 }
 .header_content {
   display: flex;
@@ -344,6 +345,7 @@ a {
   background: var(--clr_theme);
   /* box-shadow: 10px 10px 70px red; */
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 .single_pack:hover .price h4 span {
   color: rgba(255, 255, 255, 0.5);
@@ -401,3 +403,45 @@ a {
 }
 
 /* ====Get Started Area ==== */
+
+/* ====Footer Area==== */
+.footer_top_links{
+  padding-bottom: 30px;
+}
+.footer_top_links > ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.link_heading {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Inter", serif;
+  margin-bottom: 30px;
+}
+.footer_top_links ul li ul {
+  display: flex;
+  flex-direction: column;
+}
+.footer_top_links ul li a {
+  color: rgba(35, 35, 35, 0.7);
+  padding: 10px 0;
+}
+.footer_top_links ul li a:hover {
+  text-decoration: underline;
+}
+.footer_top_links ul li:first-child p {
+  color: #325b97;
+  margin-top: 30px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.footer_copyright {
+  padding: 50px 0;
+  border-top: 2px solid rgba(18, 18, 18,0.16);
+}
+.footer_copyright p {
+  color: rgba(35, 35, 35, 0.5);
+}
+
+/* ====Footer Area==== */
