@@ -389,7 +389,7 @@ a {
   left: 55%;
   border-radius: 20px;
 }
-.section_heading h3 {
+.get_started_content .section_heading h3 {
   max-width: 50%;
   color: var(--clr_white);
   text-align: left;
@@ -405,7 +405,7 @@ a {
 /* ====Get Started Area ==== */
 
 /* ====Footer Area==== */
-.footer_top_links{
+.footer_top_links {
   padding-bottom: 30px;
 }
 .footer_top_links > ul {
@@ -438,7 +438,7 @@ a {
 }
 .footer_copyright {
   padding: 50px 0;
-  border-top: 2px solid rgba(18, 18, 18,0.16);
+  border-top: 2px solid rgba(18, 18, 18, 0.16);
 }
 .footer_copyright p {
   color: rgba(35, 35, 35, 0.5);
